@@ -1,0 +1,32 @@
+@media (max-width: 1055px) {
+  .visit-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .visit-section .visit-child {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 777px) {
+  header .hamburger {
+    display: block;
+  }
+
+  header .fa-search {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  .top-section {
+    flex-direction: column-reverse;
+  }
+
+  .visit-section iframe {
+    width: 100%;
+  }
+}
